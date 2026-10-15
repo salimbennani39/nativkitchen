@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nativ' Kitchen · Healthy food à Marrakech</title>
+<meta name="description" content="Brunch, déjeuner, tea time et dîner, healthy et fait maison, à M Avenue, Marrakech. Composez votre poke, réservez votre table.">
+<meta name="theme-color" content="#2C311E">
+<link rel="icon" href="assets/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Outfit:wght@300..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scrollcraft.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<a class="skip" href="#carte">Aller à la carte</a>
+<span data-sc-progress></span>
+<div class="sc-grain" aria-hidden="true"></div>
+
+<!-- The nav is an index of the collection, and it jumps. -->
+<header class="bar">
+  <a class="bar__mark" href="#top" aria-label="Nativ' Kitchen, retour en haut">
+    <img src="assets/logo.webp" width="40" height="40" alt="">
+    <span>Nativ' Kitchen</span>
+  </a>
+  <nav class="bar__index" id="index" aria-label="Index">
+    <a href="#top" data-ix="top">Détox</a>
+    <a href="#lieu" data-ix="lieu">Le lieu</a>
+    <a href="#poke" data-ix="poke">Poke</a>
+    <a href="#carte" data-ix="carte">La carte</a>
+    <a href="#equipe" data-ix="equipe">L'équipe</a>
+    <a href="#table" data-ix="table">Votre table</a>
+  </nav>
+  <button class="bar__toggle" type="button" aria-expanded="false" aria-controls="index">Index</button>
+  <a class="btn btn--sm js-book" href="https://wa.me/212666699799" target="_blank" rel="noopener">Réserver</a>
+</header>
+
+<main id="top">
+
+  <!-- 1 · FIZZ. Object one, already labelled. Planes: far berries, wordmark,
+       the detox glass, near berries, bubbles. -->
+  <section class="hero" data-sc-act="pin" data-sc-span="1.6" aria-labelledby="h1">
+    <div data-sc-stage class="hero__stage">
+      <div class="hero__far plane" aria-hidden="true"><img src="assets/hero-berries-c.webp" width="277" height="250" alt=""></div>
+      <div class="hero__back plane" aria-hidden="true"><img src="assets/hero-berries-a.webp" width="300" height="320" alt=""></div>
+      <div class="fizz fizz--back" aria-hidden="true"></div>
+
+      <div class="hero__type">
+        <h1 id="h1" class="hero__h1"><span>Nativ'</span> <em>Kitchen</em></h1>
+      </div>
+
+      <figure class="hero__subject plane">
+        <img src="assets/hero-detox.webp" width="630" height="740" alt="Un grand verre de green detox pressé, avec une pomme verte, deux kiwis et un citron coupé.">
+      </figure>
+
+      <div class="fizz fizz--front" aria-hidden="true"></div>
+      <div class="hero__near plane" aria-hidden="true"><img src="assets/hero-berries-b.webp" width="380" height="311" alt=""></div>
+
+      <div class="hero__copy">
+        <p class="hero__lede">Healthy food à Marrakech. Brunch, déjeuner, tea time et dîner, à M Avenue.</p>
+        <div class="hero__actions">
+          <a class="btn js-book" href="https://wa.me/212666699799" target="_blank" rel="noopener">Réserver</a>
+          <a class="link" href="#poke">Composer un poke</a>
+        </div>
+      </div>
+
+      <dl class="label hero__label">
+        <dt class="label__no">Nº 01</dt>
+        <dd class="label__name">Green detox</dd>
+        <dd class="label__what">Céleri, concombre, pomme, épinards, citron, kiwi. Pressé minute.</dd>
+        <dd class="label__price"><span class="sc-nums">60</span> DH</dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 2 · EXHALE. The quiet act before the peak. -->
+  <section id="lieu" class="lieu" data-sc-act="flow">
+    <div class="lieu__grid">
+      <div class="lieu__text sc-stack" data-sc-in data-sc-stagger="70">
+        <h2 class="lieu__h">Un lieu pensé comme une parenthèse.</h2>
+        <p>Rattan, zellige et lumière douce. On passe pour un café, on reste pour le brunch.</p>
+        <p class="lieu__hours"><strong>Petit déjeuner</strong><br>Du lundi au vendredi, de 8h30 à 11h00.<br>Le week-end, de 8h30 à 14h00.</p>
+      </div>
+      <figure class="lieu__photo" data-sc-reveal="up" data-sc-reveal-at="0.12 0.5">
+        <img src="assets/room-lamps.webp" width="1097" height="1371" alt="Deux suspensions en rotin allumées au-dessus d'une banquette, devant une verrière.">
+      </figure>
+    </div>
+  </section>
+
+  <!-- 3 · PEAK. The poke comes apart, layer by layer, then you build yours. -->
+  <section id="poke" class="poke" data-sc-act="pin" data-sc-span="4.4" aria-labelledby="poke-h">
+    <div data-sc-stage class="poke__stage">
+      <div class="poke__head">
+        <p class="label__no">Nº 02</p>
+        <h2 id="poke-h" class="poke__h">Poke <em>Teriyaki</em></h2>
+        <p class="poke__sub">Du croquant, du fondant, une touche sucrée-salée. Scrollez, il se dévoile.</p>
+      </div>
+
+      <div class="poke__stack" aria-hidden="true">
+        <img class="layer" style="--y:0;--h:310;--dy:43;--s:.10" src="assets/poke-avocat.webp?v=2" alt="">
+        <img class="layer" style="--y:310;--h:155;--dy:37.9;--s:.15" src="assets/poke-ananas.webp?v=2" alt="">
+        <img class="layer" style="--y:465;--h:120;--dy:32.1;--s:.20" src="assets/poke-chou.webp?v=2" alt="">
+        <img class="layer" style="--y:585;--h:115;--dy:25.5;--s:.25" src="assets/poke-carottes.webp?v=2" alt="">
+        <img class="layer" style="--y:700;--h:150;--dy:19;--s:.30" src="assets/poke-boeuf.webp?v=2" alt="">
+        <img class="layer" style="--y:850;--h:215;--dy:10.9;--s:.35" src="assets/poke-base.webp?v=2" alt="">
+        <img class="layer layer--bowl" style="--y:1065;--h:306;--dy:0;--s:0" src="assets/poke-bol.webp?v=2" alt="">
+      </div>
+
+      <ol class="poke__tags" aria-label="Dans le bol">
+        <li style="--y:12;--s:.10">Avocat</li>
+        <li style="--y:28;--s:.15">Ananas rôti au romarin</li>
+        <li style="--y:39;--s:.20">Chou rouge</li>
+        <li style="--y:47;--s:.25">Carottes</li>
+        <li style="--y:56;--s:.30">Bœuf teriyaki</li>
+        <li style="--y:68;--s:.35">Graines de sésame, base au choix</li>
+      </ol>
+
+      <form class="build" id="build" aria-label="Composer votre poke">
+        <fieldset>
+          <legend>Votre base</legend>
+          <div class="build__opts">
+            <label class="opt"><input type="radio" name="base" value="riz vinaigré" checked><img src="assets/base-riz.webp" width="48" height="48" alt=""><span>Riz vinaigré</span></label>
+            <label class="opt"><input type="radio" name="base" value="quinoa"><img src="assets/base-quinoa.webp" width="48" height="48" alt=""><span>Quinoa</span></label>
+            <label class="opt"><input type="radio" name="base" value="pousses de salade"><img src="assets/base-salade.webp" width="48" height="48" alt=""><span>Pousses de salade</span></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Votre sauce</legend>
+          <div class="build__opts build__opts--sauce">
+            <label class="opt opt--chip"><input type="radio" name="sauce" value="Nativ'" checked><i style="--c:#E9A23B"></i><span>Nativ'</span></label>
+            <label class="opt opt--chip"><input type="radio" name="sauce" value="Extra Miso"><i style="--c:#C79A5B"></i><span>Extra Miso</span></label>
+            <label class="opt opt--chip"><input type="radio" name="sauce" value="Extra Yuzu"><i style="--c:#E8D35A"></i><span>Extra Yuzu</span></label>
+            <label class="opt opt--chip"><input type="radio" name="sauce" value="Green"><i style="--c:#7FA650"></i><span>Green</span></label>
+          </div>
+          <p class="build__note" id="sauce-note">Fruits de la passion, huile d'olive, vinaigre de figue de barbarie, ciboulette.</p>
+        </fieldset>
+        <p class="build__sum" aria-live="polite"><span id="sum">Teriyaki, riz vinaigré, sauce Nativ'</span> <b class="sc-nums">135 DH</b></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- 4 · APPETITE. The collection, sideways, same label on every object. -->
+  <section id="carte" class="carte" data-sc-act="pan" data-sc-span="3.2" aria-labelledby="carte-h">
+    <div data-sc-stage class="carte__stage">
+      <div class="rail" data-sc-pan="0.04">
+        <div class="rail__lead">
+          <h2 id="carte-h" class="carte__h">La carte</h2>
+          <p>Tout est fait maison. Quelques classiques, avec leur prix.</p>
+        </div>
+
+        <article class="obj">
+          <div class="obj__img" data-sc-tilt="6"><img src="assets/dish-burger.webp" width="1097" height="1371" alt="Burger healthy au pain à la betterave, fromage fondu qui coule." loading="lazy"></div>
+          <dl class="label"><dt class="label__no">Nº 03</dt><dd class="label__name">Burger healthy</dd><dd class="label__what">Pain à la betterave, steak de bœuf, guacamole, fromage fondu, pousses de salade, pickles.</dd><dd class="label__price"><span class="sc-nums">135</span> DH</dd></dl>
+        </article>
+        <article class="obj">
+          <div class="obj__img" data-sc-tilt="6"><img src="assets/dish-assiette.webp" width="1097" height="1371" alt="L'assiette méditerranéenne sur une table en zellige, avec houmous, falafels et taboulé." loading="lazy"></div>
+          <dl class="label"><dt class="label__no">Nº 04</dt><dd class="label__name">L'assiette méditerranéenne</dd><dd class="label__what">Houmous, houmous de betteraves, aubergine braisée, feta, green falafel, taboulé au quinoa.</dd><dd class="label__price"><span class="sc-nums">135</span> DH</dd></dl>
+        </article>
+        <article class="obj">
+          <div class="obj__img" data-sc-tilt="6"><img src="assets/dish-greenlover.webp" width="1097" height="1371" alt="Bol Green Lover avec falafels, edamame, noix de cajou et radis, nappé de sauce." loading="lazy"></div>
+          <dl class="label"><dt class="label__no">Nº 05</dt><dd class="label__name">Poke Green Lover</dd><dd class="label__what">Base au choix, falafel, radis, avocat, chou rouge, edamame, concombre, cajou. Végan.</dd><dd class="label__price"><span class="sc-nums">95</span> DH</dd></dl>
+        </article>
+        <article class="obj">
+          <div class="obj__img" data-sc-tilt="6"><img src="assets/dish-guac.webp" width="720" height="720" alt="Guacamole Lover dans une assiette blanche, crackers de graines et julienne de carotte." loading="lazy"></div>
+          <dl class="label"><dt class="label__no">Nº 06</dt><dd class="label__name">Guacamole Lover</dd><dd class="label__what">Guacamole, houmous betterave, crackers de graines et légumes. À partager, sans gluten.</dd><dd class="label__price"><span class="sc-nums">95</span> DH</dd></dl>
+        </article>
+        <article class="obj">
+          <div class="obj__img" data-sc-tilt="6"><img src="assets/dish-crepe.webp" width="1097" height="1371" alt="Crêpes au sarrasin pliées, nappées de sauce à l'orange." loading="lazy"></div>
+          <dl class="label"><dt class="label__no">Nº 07</dt><dd class="label__name">Crêpe à l'orange</dd><dd class="label__what">Crêpes au sarrasin, sauce orange gingembre, écorces confites, filaments d'orange.</dd><dd class="label__price">Au dessert</dd></dl>
+        </article>
+        <article class="obj">
+          <div class="obj__img" data-sc-tilt="6"><img src="assets/dish-redenergy.webp" width="1097" height="1371" alt="Un Red Energy rouge vif tenu à côté d'une assiette." loading="lazy"></div>
+          <dl class="label"><dt class="label__no">Nº 08</dt><dd class="label__name">Red Energy</dd><dd class="label__what">Betterave, carotte, pomme, citron jaune. Pressé minute.</dd><dd class="label__price"><span class="sc-nums">60</span> DH</dd></dl>
+        </article>
+
+        <div class="rail__end">
+          <p>Et aussi&nbsp;: bagel breakfast, Nativ'Açaï bowl, dim sum gambas, salmon aux agrumes, cookies au sarrasin sans gluten.</p>
+          <a class="link" href="#table">Venir goûter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · WARMTH. The people, photos at different depths. -->
+  <section id="equipe" class="equipe" data-sc-act="flow" aria-labelledby="equipe-h">
+    <div class="equipe__grid">
+      <figure class="equipe__chef">
+        <img src="assets/team-chef.webp" width="740" height="1371" alt="La cheffe de Nativ' Kitchen en veste de cuisine bleu cobalt, dans la salle." loading="lazy">
+      </figure>
+      <div class="equipe__text sc-stack" data-sc-in data-sc-stagger="70">
+        <h2 id="equipe-h" class="equipe__h">L'expérience ne s'arrête pas dans l'assiette.</h2>
+        <p>De l'accueil au service, chaque détail est pensé pour que vous profitiez pleinement du moment. Parce que bien manger, c'est aussi se sentir bien accueilli.</p>
+      </div>
+      <figure class="equipe__service" data-sc-parallax="-0.9">
+        <img src="assets/team-service.webp" width="1097" height="1371" alt="Un serveur en tablier noir prend une commande dans la salle." loading="lazy">
+      </figure>
+      <figure class="equipe__hat" data-sc-parallax="-1.6">
+        <img src="assets/hat.webp" width="876" height="1170" alt="Chapeaux de paille brodés Nativ Kitchen posés sur une table en zellige." loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+  <!-- 6 · RESOLVE. The inquiry plate, typeset exactly like a label. -->
+  <section id="table" class="table" data-sc-act="flow" aria-labelledby="table-h">
+    <div class="table__stage">
+      <div class="plate" data-sc-in data-sc-stagger="60">
+        <p class="label__no">Nº 09</p>
+        <h2 id="table-h" class="plate__h">Votre table</h2>
+        <dl class="plate__rows">
+          <div><dt>Adresse</dt><dd><a href="https://www.google.com/maps/search/?api=1&query=Nativ%27+Kitchen+M+Avenue+Marrakech" target="_blank" rel="noopener">M Avenue, Marrakech</a></dd></div>
+          <div><dt>Téléphone</dt><dd><a class="sc-nums" href="tel:+212666699799">06 66 69 97 99</a></dd></div>
+          <div><dt>Livraison</dt><dd>Sur Glovo</dd></div>
+          <div><dt>Votre poke</dt><dd><span class="js-sum">Teriyaki, riz vinaigré, sauce Nativ'</span> <span class="nowrap">· <span class="sc-nums">135</span> DH</span> <a class="plate__edit" href="#poke">modifier</a></dd></div>
+        </dl>
+        <div class="plate__cta">
+          <a class="btn btn--lg js-book" href="https://wa.me/212666699799" target="_blank" rel="noopener">Réserver</a>
+          <p>Sur WhatsApp, avec votre poke déjà écrit.</p>
+        </div>
+      </div>
+      <footer class="foot">
+        <img src="assets/logo.webp" width="56" height="56" alt="Nativ' Kitchen">
+        <p>Nativ' Kitchen, healthy food. <a href="https://www.instagram.com/nativkitchen/" target="_blank" rel="noopener">@nativkitchen</a> · <a href="https://nativkitchenmarrakech.com" target="_blank" rel="noopener">nativkitchenmarrakech.com</a></p>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+<script src="scrollcraft.js"></script>
+<script>ScrollCraft.mount(document.body);</script>
+<script src="site.js"></script>
+</body>
+</html>
